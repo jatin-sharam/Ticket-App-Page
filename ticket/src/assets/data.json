@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "ticket": "The content has lack of business context.",
+        "assignedto": "Liam",
+        "status": "Closed",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 2,
+        "ticket": "Many fields are blank.",
+        "assignedto": "Moush",
+        "status": "Pending",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 3,
+        "ticket": "There are associated no stackholders.",
+        "assignedto": "Jack",
+        "status": "Open",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 4,
+        "ticket": " Incomplete busniess contact details.",
+        "assignedto": "Steve",
+        "status": "Closed",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 5,
+        "ticket": " There are no avidences attached.",
+        "assignedto": "Carry",
+        "status": "Closed",
+        "date": "2023-08-19"
+    },
+    {
+        "id": 6,
+        "ticket": "Report is throwing an error.",
+        "assignedto": "Sam",
+        "status": "Pending",
+        "date": "2023-08-19"
+    }
+]

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+.main1 {
+    background-color: #eaf2ff;
+    border-radius: 10px;
+    max-width: 68%;
+    margin-left: 233px;
+    height: 12%;     
+}
+
+.data {
+    border: 2px solid #eef2f5;
+    border-radius: 10px;
+    margin-top: 2%; 
+    height: 80%;
+    flex-direction: column; 
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    margin-left: 895px;
+    margin-top: 30px;
+ 
+    border-radius:10px;
+}
+
+.Search{
+   margin-left: 8px;
+    height: 30px;  
+}
+
+.button {
+    width: 140px;
+    border-radius: 5px;
+    background-color: #71a7ff;
+    color: #fbfdff;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+.main2 {
+   
+    display: flex;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.example {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+    .card1 {
+        text-align: center;
+        margin-top: 15px;
+        color: #438aff;
+        border-style: none;
+        width: 15%;
+        height: 80px;
+        background-color: #eaf2ff;
+        border-radius: 6px;
+    }
+
+    .card2 {
+        text-align: center;
+        margin-top: 15px;
+        color: #ffb61f;
+        border-style: none;
+        width: 15%;
+        height: 80px;
+        background-color: #fff5e4;
+        border-radius: 6px;
+    }
+
+    .card3 {
+        text-align: center;
+        margin-top: 15px;
+        color: #08e1bc;
+        border-style: none;
+        width: 15%;
+        height: 80px;
+        background-color: #e0fffa;
+        border-radius: 6px;
+    }
+
+    .card4 {
+        text-align: center;
+        margin-top: 15px;
+        color: #ff8a6d;
+        border-style: none;
+        width: 15%;
+        height: 80px;
+        background-color: #ffede8;
+        border-radius: 6px;
+    }
+
+.tab {
+    width: 67%;
+    margin-left: 240px;
+    box-shadow: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.text-success{
+    background-color: #d8f6f2 !important;
+    color: white;
+}
+
+.text-primary {
+    background-color:#fff5e4 !important;
+    color: white;
+}
+
+.text-danger {
+    background-color:#ffede8 !important;
+    color: white;
+}
+

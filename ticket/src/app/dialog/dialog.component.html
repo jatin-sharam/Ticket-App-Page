@@ -1,0 +1,33 @@
+<form [formGroup]="ticketData">
+  <h1 mat-dialog-title style="text-align:center;font-size: 25px;"> Ticket Data Entry</h1>
+  <div mat-dialog-content class="main">
+
+    <mat-form-field class="first">
+      <input matInput formControlName="ticket" placeholder="Enter the ticket">
+      <mat-hint>Angular Material</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field class="second">
+      <input matInput formControlName="assignedto" placeholder="Enter Name">
+      <mat-hint>Hanry</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field class="third">
+      <mat-select formControlName="status" placeholder="Status">
+        <mat-option *ngFor="let status of status" [value]="status.value">{{status.value}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="four">
+      <input matInput [matDatepicker]="picker" placeholder="Enter Date" formControlName="date">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div mat-dialog-actions class="dialog">
+    <button mat-button (click)="onform('cancel')">Cancel</button>
+    <button mat-button cdkFocusInitial (click)="onform('save')">{{ data.isEdit ? 'Update' : 'Add' }}</button>
+  </div>
+</form>
